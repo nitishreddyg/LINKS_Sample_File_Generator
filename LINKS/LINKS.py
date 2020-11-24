@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-fsize = 100
+fsize = 1000000
 col=['SKU','Branch_CODE','Start_date','end_date','Dept','supp_code','lasttimestamp','Process flags','Indic','Date']
 df=pd.DataFrame(columns=col)
 df['SKU']= np.random.randint(0,1000,size=fsize)
